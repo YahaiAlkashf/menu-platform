@@ -11,13 +11,13 @@ const products = [
     name: "دبل سموك بيكون برجر",
     desc: "قطعتان من اللحم البقري المشوي مع صوص الشواء والجبن الشيدر المدخن.",
     price: "185 ج.م",
-    img: "/images/burger.jpg",
+    img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=80",
   },
   {
     name: "لودد تكساس فرايز",
     desc: "بطاطس مقرمشة ذهبية مغطاة بجبنة الشيدر الساخنة وقطع الهالبينو اللذيذة.",
     price: "85 ج.م",
-    img: "/images/fries.jpg",
+    img: "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=500&q=80",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function LiveDemoSection() {
                   className="flex gap-4 p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container border border-surface-container/60 transition-colors"
                 >
                   <div className="w-24 h-24 rounded-xl overflow-hidden shrink-0 bg-surface-container-high relative">
-                    <Image src={p.img} alt={p.name} fill className="object-cover" />
+                    <img src={p.img} alt={p.name} fill className="object-cover" />
                   </div>
                   <div className="flex flex-col justify-between flex-1">
                     <div>
@@ -115,8 +115,9 @@ export default function LiveDemoSection() {
                   <span className="block font-body-sm text-body-sm text-on-surface-variant">الزبون يحدد اختياراته وتصلك جاهزة ومحسوبة بالكامل</span>
                 </div>
               </div>
+
               <a
-                href={WA_DEMO_LINK}
+                href="https://menufq.vercel.app/menu/burger-station"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md font-bold transition-all shadow-md"
