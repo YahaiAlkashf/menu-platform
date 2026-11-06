@@ -139,7 +139,7 @@ export default function LiveDemoSection() {
             </p>
 
             <div className="p-4 rounded-2xl bg-surface-container-high border border-surface-container shadow-inner">
-              <QrCode className="w-48 h-48" />
+              <img className="w-48 h-48" src="/images/QRs/QRTest.png"/>
             </div>
 
             <div className="mt-6 flex flex-col gap-2 w-full">

@@ -73,9 +73,6 @@ export default function HeroSection() {
             <div className="relative w-full max-w-md mx-auto">
               <div className="bg-white p-6 rounded-2xl border border-white/20 shadow-2xl flex flex-col items-center text-center relative z-20">
                 <div className="flex items-center justify-between w-full mb-4">
-                  <span className="px-2.5 py-1 rounded-md bg-amber-50 text-amber-800 border border-amber-200/60 text-xs font-bold">
-                    طاولة رقم 08
-                  </span>
                   <span className="flex items-center gap-1.5 text-xs text-slate-500 font-semibold">
                     <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                     متاح للطلب الآن
