@@ -117,7 +117,7 @@ export default function LiveDemoSection() {
               </div>
 
               <a
-                href="https://menufq.vercel.app/menu/burger-station"
+                href="https://menufq.com/menu/burger-station"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md font-bold transition-all shadow-md"

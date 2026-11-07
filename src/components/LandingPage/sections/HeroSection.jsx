@@ -49,7 +49,7 @@ export default function HeroSection() {
               </a>
 
               <a
-                href="https://menufq.vercel.app/menu/burger-station"
+                href="https://menufq.com/menu/burger-station"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg border border-white/30 bg-white/10 hover:bg-white/20 text-white text-base font-bold backdrop-blur-xs transition-all cursor-pointer"
               >
                 <span>معاينة المنيو التجريبي</span>
