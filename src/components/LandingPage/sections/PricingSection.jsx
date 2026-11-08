@@ -102,7 +102,7 @@ export default function PricingSection() {
                 الحل الذهبي لإدارة وتطوير منيو مطعمك باحترافية طوال العام.
               </p>
               <div className="flex items-baseline gap-2 mb-8">
-                <span className="font-display text-display font-extrabold text-on-surface">999</span>
+                <span className="font-display text-display font-extrabold text-on-surface">399</span>
                 <span className="font-title text-title font-bold text-on-surface">ج.م</span>
                 <span className="font-body-md text-body-md text-on-surface-variant">/ سنوياً فقط</span>
               </div>
