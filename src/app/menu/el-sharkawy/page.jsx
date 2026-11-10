@@ -260,7 +260,7 @@ export default function ElSharkawyMenu() {
             </div>
             <div>
               <h1 className="text-xl font-black tracking-wide text-white">الشرقاوي</h1>
-              <p className="text-red-500 text-xs font-medium">كبدة ومخ ومشويات على الفحم 🔥</p>
+              <p className="text-red-500 text-xs font-medium">   طعم يستحق التجربة  🔥</p>
             </div>
           </div>
           
