@@ -461,7 +461,6 @@ export default function BurgerStationMenu() {
             className="fixed bottom-0 left-0 right-0 z-[60] bg-neutral-950 border-t border-neutral-800 rounded-t-3xl shadow-2xl max-h-[88vh] flex flex-col"
             style={{ animation: 'slideUp 0.3s ease-out' }}
           >
-            {/* Header */}
             <div className="flex items-center justify-between p-5 border-b border-neutral-800 sticky top-0 bg-neutral-950 z-10 rounded-t-3xl">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">🧾</span>
