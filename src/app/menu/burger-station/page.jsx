@@ -404,7 +404,7 @@ export default function BurgerStationMenu() {
         })}
       </main>
 
-      {/* Floating Order Bar */}
+     
       {cartCount > 0 && (
         <div className="fixed bottom-4 left-4 right-4 z-40 max-w-md mx-auto">
           <div className="bg-neutral-900/95 backdrop-blur-md border border-neutral-800 rounded-2xl p-3 shadow-2xl shadow-black/60">
